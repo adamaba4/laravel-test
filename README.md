@@ -62,9 +62,9 @@ CREATE DATABASE laravel_reservations;
 php artisan migrate
 ```
 
-8. Créer un utilisateur admin pour Filament :
+8. Remplir la base avec les données de test :
 ```bash
-php artisan make:filament-user
+php artisan db:seed
 ```
 
 9. Lancer le serveur :
@@ -102,6 +102,10 @@ php artisan serve
 Couleurs personnalisées définies dans `tailwind.config.js` :
 - `primary: #1E40AF` (bleu)
 - `secondary: #9333EA` (violet)
+
+### Administrateur Filament (/admin)
+- `email : adama04@gmail.com`
+- `password : toto25 `
 
 ## Auteur
 Adama BA
