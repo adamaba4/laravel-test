@@ -3,9 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-/* name: adama
-email:  adama04@gmail.com
-password: toto25*/
+
 
 /*
 |--------------------------------------------------------------------------
